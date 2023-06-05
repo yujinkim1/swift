@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C363AB92A2D87D000B2EB70 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C363AB82A2D87D000B2EB70 /* main.swift */; };
+		1C363AC52A2D8F7A00B2EB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1C363AB52A2D87D000B2EB70 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C363AB82A2D87D000B2EB70 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		1C363AB72A2D87D000B2EB70 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				1C363AC32A2D8F2300B2EB70 /* DataStructure */,
 				1C363AB82A2D87D000B2EB70 /* main.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		1C363AC32A2D8F2300B2EB70 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +87,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1C363AC22A2D8ED000B2EB70 /* PBXTargetDependency */,
 			);
 			name = Algorithms;
 			productName = Algorithms;
@@ -106,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 1C363AAC2A2D87D000B2EB70;
+			packageReferences = (
+				1C363AC02A2D8EC400B2EB70 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 1C363AB62A2D87D000B2EB70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,11 +135,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C363AC52A2D8F7A00B2EB70 /* LinkedList.swift in Sources */,
 				1C363AB92A2D87D000B2EB70 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C363AC22A2D8ED000B2EB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 1C363AC12A2D8ED000B2EB70 /* SwiftLintPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1C363ABA2A2D87D000B2EB70 /* Debug */ = {
@@ -284,6 +307,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C363AC02A2D8EC400B2EB70 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C363AC12A2D8ED000B2EB70 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C363AC02A2D8EC400B2EB70 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C363AAD2A2D87D000B2EB70 /* Project object */;
 }
