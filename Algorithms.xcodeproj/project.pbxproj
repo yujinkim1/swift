@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C363AB92A2D87D000B2EB70 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C363AB82A2D87D000B2EB70 /* main.swift */; };
 		1C363AC52A2D8F7A00B2EB70 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */; };
+		1C86C1A12A36015D0051C03A /* MultiplyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86C1A02A36015D0051C03A /* MultiplyString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		1C363AB52A2D87D000B2EB70 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C363AB82A2D87D000B2EB70 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		1C86C1A02A36015D0051C03A /* MultiplyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		1C363AB72A2D87D000B2EB70 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				1C86C19F2A3600830051C03A /* ProgrammersBeginner */,
 				1C363AC32A2D8F2300B2EB70 /* DataStructure */,
 				1C363AB82A2D87D000B2EB70 /* main.swift */,
 			);
@@ -71,6 +74,14 @@
 				1C363AC42A2D8F7A00B2EB70 /* LinkedList.swift */,
 			);
 			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		1C86C19F2A3600830051C03A /* ProgrammersBeginner */ = {
+			isa = PBXGroup;
+			children = (
+				1C86C1A02A36015D0051C03A /* MultiplyString.swift */,
+			);
+			path = ProgrammersBeginner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,6 @@
 			);
 			mainGroup = 1C363AAC2A2D87D000B2EB70;
 			packageReferences = (
-				1C363AC02A2D8EC400B2EB70 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = 1C363AB62A2D87D000B2EB70 /* Products */;
 			projectDirPath = "";
@@ -135,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C86C1A12A36015D0051C03A /* MultiplyString.swift in Sources */,
 				1C363AC52A2D8F7A00B2EB70 /* LinkedList.swift in Sources */,
 				1C363AB92A2D87D000B2EB70 /* main.swift in Sources */,
 			);
