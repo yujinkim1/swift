@@ -1,18 +1,18 @@
 //
-//  MultiplyString.swift
-//  SwiftKick
+//	MultiplyString.swift
+//	SwiftKick
 //	ProgrammersBeginner
 //
-//  Created by Yujin Kim
+//	Created by Yujin Kim
 
-/*
- *	https://school.programmers.co.kr/learn/courses/30/lessons/181940
- *	문자열 곱하기
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/181940
+ * 문자열 곱하기
  *
- *	문자열 [my_string]과 정수 [k]가 주어질 때, [my_string]을 [k]번 반복한 문자열을 반환하는 함수를 작성
- * 	[my_string] 변수가 "string" 이고 [k] 변수가 3 이라면 result 변수가 "stringstringstring"이다.
- * 	in: string, 3 / out: stringstringstring
- *	in: character, 2 / out: charactercharacter
+ * 문자열 [my_string]과 정수 [k]가 주어질 때, [my_string]을 [k]번 반복한 문자열을 반환하는 함수를 작성
+ * [my_string] 변수가 "string" 이고 [k] 변수가 3 이라면 result 변수가 "stringstringstring"이다.
+ * in: string, 3 / out: stringstringstring
+ * in: character, 2 / out: charactercharacter
  */
 
 import Foundation
