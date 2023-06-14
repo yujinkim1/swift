@@ -1,10 +1,9 @@
 //
 //	MultiplyString.swift
 //	SwiftKick
-//	ProgrammersBeginner
 //
-//	Created by Yujin Kim
-
+//	Created by Yujin Kim on 2023-06-11.
+//
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181940
  * 문자열 곱하기
@@ -14,7 +13,6 @@
  * in: string, 3 / out: stringstringstring
  * in: character, 2 / out: charactercharacter
  */
-
 import Foundation
 
 func solution(_ my_string: String, _ k: Int) -> String {

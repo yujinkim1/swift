@@ -1,10 +1,9 @@
 //
 //	CommonMultiple.swift
 //	SwiftKick
-//	ProgrammersBeginner
 //
-//	Created by Yujin Kim
-
+//	Created by Yujin Kim on 2023-06-12.
+//
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181936
  * 공배수
@@ -14,7 +13,6 @@
  * input: [number: 60, n: 2, n: 3] / output: 1
  * input: [number: 55, n: 10, n: 5] / output: 0
  */
-
 import Foundation
 
 func solution(_ number: Int, _ n: Int, _ m: Int) -> Int {

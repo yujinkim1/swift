@@ -1,10 +1,9 @@
 //
 //	MergeLarger.swift
 //	SwiftKick
-//	ProgrammersBeginner
 //
-//	Created by Yujin Kim
-
+//	Created by Yujin Kim on 2023-06-11.
+//
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181939
  * 더 크게 합치기
@@ -15,7 +14,6 @@
  * in: 89, 8 / out: 898
  * in: 9, 91 / out: 991
  */
-
 import Foundation
 
 func solution(_ a: Int, _ b: Int) -> Int {
