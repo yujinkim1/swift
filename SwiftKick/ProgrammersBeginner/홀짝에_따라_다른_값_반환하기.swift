@@ -6,7 +6,6 @@
 //
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181935
- * 홀짝에 따라 다른 값 반환하기
  *
  * 양의 정수 [n]이 주어진다.
  * [n]이 홀수라면 [n]이하의 홀수인 모든 양의 정수의 합을 반환한다.
