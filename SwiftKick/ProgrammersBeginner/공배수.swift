@@ -1,12 +1,11 @@
 //
-//	CommonMultiple.swift
-//	SwiftKick
+//  공배수.swift
+//  SwiftKick
 //
-//	Created by Yujin Kim on 2023-06-12.
+//  Created by Yujin Kim on 2023-06-12.
 //
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181936
- * 공배수
  * 
  * 정수형 [number, n, m]변수가 주어진다.
  * [number] 변수가 n 변수의 배수이면서 m 변수의 배수라면 1을 출력하고 아니라면 0을 출력한다.
