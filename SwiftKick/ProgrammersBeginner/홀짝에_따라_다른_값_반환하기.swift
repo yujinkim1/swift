@@ -1,5 +1,5 @@
 //
-//  OddOrEven.swift
+//  홀짝에_따라_다른_값_반환하기.swift
 //  SwiftKick
 //
 //  Created by Yujin Kim on 2023-06-14.

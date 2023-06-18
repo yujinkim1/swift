@@ -1,12 +1,11 @@
 //
-//  CompareTwoValues.swift
+//  두_수의_연산값_비교하기.swift
 //  SwiftKick
 //
 //  Created by Yujin Kim on 2023-06-13.
 //
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181938
- * 두 수의 연산값 비교하기
  *
  * 두 정수에 대한 연산으로 두 정수를 붙여서 쓴 값을 반환한다.
  * 정수 [a]와 [b]가 주어졌을 때, [a ⊕ b]와 [2 * a * b]중 더 큰 값을 반환한다.
