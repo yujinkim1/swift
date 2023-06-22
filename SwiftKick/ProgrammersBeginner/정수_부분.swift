@@ -6,6 +6,7 @@
 //
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181850
+ *
  * 실수형 [flo]변수가 주어지고, 실수가 함수에 전달되면 정수만 반환한다.
  * input: 1.42 / output: 1
  * input: 69.32 / output: 69
