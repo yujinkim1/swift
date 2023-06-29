@@ -25,4 +25,5 @@ func solution(_ a: Int, _ b: Int, _ c: Int) -> Int {
 	} else {
 		return (a + b + c)
 	}
+	return 0
 }
