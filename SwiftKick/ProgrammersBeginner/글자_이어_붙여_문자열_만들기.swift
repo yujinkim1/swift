@@ -12,7 +12,7 @@
  * 문자열은 영소문자로 구성해야하고, 0 ≤ indexList의 원소 < myString의 길이이다.
  * input: "cvsgiorszzzmrpaqpe", [16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7] / output: "programmers"
  * input: "zpiaz", [1, 2, 0, 0, 3] / output: "pizza"
- * input: "isfwt", [1, 3, 0, 4, 2] / output: "swift"
+ * input: "isfwt", [1, 3, 0, 2, 4] / output: "swift"
  */
 
 import Foundation
